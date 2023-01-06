@@ -15,7 +15,7 @@
 .container {
   width: 75%;
   margin-inline: auto;
-  padding: 100px 0 70px;
+  padding: 70px 0 70px;
 }
 
 /* Header Section Start*/
@@ -50,7 +50,7 @@ header {
 /* Button */
 
 .btn {
-  background-color: #d35400;
+  background-color: #f39c12;
   color: #ffffff;
   font-size: 1.4rem;
   padding: 20px 30px;
@@ -109,7 +109,7 @@ header {
 .plans {
   display: flex;
   justify-content: space-evenly;
-  margin: 60px 0;
+  margin: 60px 0 10px;
 }
 .plan-list img {
   width: 70px;
@@ -121,4 +121,32 @@ header {
 }
 .plan-list p {
   color: #444343;
+}
+
+/* Call Now Area Style Start */
+.call-now-area {
+  background: linear-gradient(
+    to right,
+    rgba(175, 79, 15, 1),
+    rgb(243, 138, 69, 0.2)
+  );
+
+  border: none;
+  border-radius: 7px;
+}
+.bg-image {
+  background-image: url(../images/watch.png);
+  background-repeat: no-repeat;
+  /* z-index: 9999; */
+  background-size: cover;
+  border-radius: 7px;
+}
+.call-now {
+  padding: 60px 0 60px 60px;
+  width: 55%;
+}
+.call-now h2 {
+  margin-bottom: 20px;
+  line-height: 3.5rem;
+  color: #ffffff;
 }
