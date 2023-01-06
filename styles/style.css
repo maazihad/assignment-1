@@ -1,4 +1,4 @@
-/* style reset */
+/* ============================style reset==================== */
 *,
 *::after,
 *::before {
@@ -18,8 +18,7 @@
   padding: 70px 0 70px;
 }
 
-/* Header Section Start*/
-
+/* =================================== Header Section Start===================== */
 header {
   background-image: url(../images/banner/banner1.png);
   background-repeat: no-repeat;
@@ -47,8 +46,7 @@ header {
   line-height: 1.7rem;
 }
 
-/* Button */
-
+/* ==========================Button=================== */
 .btn {
   background-color: #f39c12;
   color: #ffffff;
@@ -66,9 +64,7 @@ header {
   transition: 1s;
 }
 
-/* Header Section Complete */
-
-/* Struggle & Failure Section Start */
+/* ===============================Struggle & Failure Section Start======================== */
 .my-struggle {
   display: flex;
 }
@@ -80,7 +76,6 @@ header {
   width: 30%;
   margin: 180px 0 0 70px;
 }
-
 .section-title {
   font-size: 3rem;
   color: #151414;
@@ -99,13 +94,11 @@ header {
   margin-bottom: 7px;
 }
 
-/* My planst Style Start */
-
+/* ===============================My planst Style Start==================== */
 .plans-area {
   text-align: center;
   color: #151414;
 }
-
 .plans {
   display: flex;
   justify-content: space-evenly;
@@ -123,7 +116,7 @@ header {
   color: #444343;
 }
 
-/* Future complete Area */
+/* ===============================Future complete Area====================== */
 .future-area h2.section-title {
   text-transform: uppercase;
   font-weight: 800;
@@ -154,20 +147,18 @@ header {
   margin: 20px 0;
   line-height: 1.5rem;
 }
-
 .card .btn {
   padding: 10px 15px;
   font-size: 1rem;
 }
 
-/* Call Now Area Style Start */
+/* ===================================Call Now Area Style Start====================== */
 .call-now-area {
   background: linear-gradient(
     to right,
     rgba(175, 79, 15, 1),
     rgb(243, 138, 69, 0.2)
   );
-
   border: none;
   border-radius: 7px;
 }
@@ -188,17 +179,14 @@ header {
   color: #ffffff;
 }
 
-/* Footer Area */
-
+/* ================================Footer Area========================= */
 footer {
   background-color: #151414;
   color: #ffffff;
 }
-
 .footer-area {
   display: flex;
 }
-
 .footer-left h2 {
   color: #ffffff;
 }
@@ -225,7 +213,6 @@ footer {
 .social-icons li img {
   width: 25px;
 }
-
 .subscribe-area {
   margin: 70px 0 0 50px;
 }
@@ -244,7 +231,6 @@ form input:first-child {
   color: #ffffff;
   margin: 17px 0 20px;
 }
-
 form .btn {
   background-color: #ffffff;
   color: #f15b22;
@@ -253,3 +239,4 @@ form .btn:hover {
   color: #ffff;
   background-color: #f15b22;
 }
+/* ========================Code End================ */
