@@ -150,3 +150,69 @@ header {
   line-height: 3.5rem;
   color: #ffffff;
 }
+
+/* Footer Area */
+
+footer {
+  background-color: #151414;
+  color: #ffffff;
+}
+
+.footer-area {
+  display: flex;
+}
+
+.footer-left h2 {
+  color: #ffffff;
+}
+.footer-left,
+.footer-right {
+  width: 50%;
+}
+.footer-text {
+  width: 70%;
+}
+.para p {
+  font-size: 1rem;
+  font-weight: 200;
+  line-height: 1.5rem;
+  padding: 10px 0;
+}
+.social-icons {
+  display: flex;
+  margin-top: 20px;
+}
+.social-icons li {
+  margin-right: 10px;
+}
+.social-icons li img {
+  width: 25px;
+}
+
+.subscribe-area {
+  margin: 70px 0 0 50px;
+}
+.subscribe-area h4 {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 500;
+}
+form input:first-child {
+  width: 70%;
+  padding: 20px 20px;
+  font-size: 1.1rem;
+  border: 1px solid #ffffff;
+  background-color: black;
+  border-radius: 7px;
+  color: #ffffff;
+  margin: 17px 0 20px;
+}
+
+form .btn {
+  background-color: #ffffff;
+  color: #f15b22;
+}
+form .btn:hover {
+  color: #ffff;
+  background-color: #f15b22;
+}
