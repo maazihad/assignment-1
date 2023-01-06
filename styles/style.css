@@ -123,6 +123,43 @@ header {
   color: #444343;
 }
 
+/* Future complete Area */
+.future-area h2.section-title {
+  text-transform: uppercase;
+  font-weight: 800;
+  border-radius: 50%;
+  background-color: lavender;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  font-size: 3rem;
+}
+.card-group {
+  display: flex;
+  margin: 40px 0 0;
+  justify-content: space-evenly;
+}
+.card {
+  width: 23.5%;
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  border-radius: 10px;
+}
+.card img {
+  width: 100%;
+}
+.card .card-title {
+  margin: 15px 0;
+  font-size: 1rem;
+}
+.card .card-summary {
+  margin: 20px 0;
+  line-height: 1.5rem;
+}
+
+.card .btn {
+  padding: 10px 15px;
+  font-size: 1rem;
+}
+
 /* Call Now Area Style Start */
 .call-now-area {
   background: linear-gradient(
