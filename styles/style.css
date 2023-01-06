@@ -15,6 +15,7 @@
 .container {
   width: 75%;
   margin-inline: auto;
+  padding: 100px 0 70px;
 }
 
 /* Header Section Start*/
@@ -31,7 +32,7 @@ header {
 }
 .banner {
   width: 520px;
-  padding: 220px 0 170px;
+  margin: 50px 0 170px;
 }
 .banner-title {
   font-size: 4rem;
@@ -69,7 +70,6 @@ header {
 
 /* Struggle & Failure Section Start */
 .my-struggle {
-  padding: 100px 0;
   display: flex;
 }
 .img-side {
@@ -97,4 +97,28 @@ header {
 }
 .struggle-list li {
   margin-bottom: 7px;
+}
+
+/* My planst Style Start */
+
+.plans-area {
+  text-align: center;
+  color: #151414;
+}
+
+.plans {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 60px 0;
+}
+.plan-list img {
+  width: 70px;
+}
+.plan-list h3 {
+  margin: 10px 0 5px;
+  font-size: 1.5rem;
+  color: #151414;
+}
+.plan-list p {
+  color: #444343;
 }
