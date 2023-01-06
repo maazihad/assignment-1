@@ -13,15 +13,16 @@
 /* Default Container styles for All section */
 
 .container {
-  width: max(80vw, min(50%, 1000px));
+  width: 75%;
   margin-inline: auto;
-  /* background-color: lightblue; */
 }
 
-/* Header Section */
+/* Header Section Start*/
 
 header {
   background-image: url(../images/banner/banner1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .banner-area {
   display: flex;
@@ -56,9 +57,44 @@ header {
   border: none;
   display: inline-block;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .btn:hover {
   background-color: #e67e22;
   transition: 1s;
+}
+
+/* Header Section Complete */
+
+/* Struggle & Failure Section Start */
+.my-struggle {
+  padding: 100px 0;
+  display: flex;
+}
+.img-side {
+  width: 600px;
+  height: auto;
+}
+.struggle-list-side {
+  width: 30%;
+  margin: 180px 0 0 70px;
+}
+
+.section-title {
+  font-size: 3rem;
+  color: #151414;
+  line-height: 3.5rem;
+}
+.section-summary {
+  font-size: 1.1rem;
+  margin: 20px 0;
+  line-height: 1.5rem;
+  color: #444343;
+}
+.struggle-list {
+  color: #444343;
+}
+.struggle-list li {
+  margin-bottom: 7px;
 }
